@@ -33,5 +33,4 @@ highlight ColorColumn ctermbg=235 guibg=#2c2d27
 hi Todo ctermfg=1
 let &colorcolumn="80,".join(range(120,999),",")
 let g:syntastic_javascript_syntax_checker="jshint"
-set guifont=Monaco:h16
-command! -complete=file -nargs=* Grunt call s:RunShellCommand('grunt '.<q-args>)
+let delimitMate_expand_cr=1
