@@ -27,6 +27,7 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-\> :Gbrowse<CR>
 inoremap <C-@> <c-x><c-o>
 let g:gitgutter_realtime = 1
+let g:vim_markdown_folding_disabled=1
 let mapleader = ","
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 hi Todo ctermfg=1

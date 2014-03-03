@@ -3,8 +3,8 @@ https://github.com/tpope/vim-surround.git
 https://github.com/msanders/snipmate.vim.git
 https://github.com/jelera/vim-javascript-syntax.git
 https://github.com/plasticboy/vim-markdown.git
-https://github.com/groenewege/vim-less
-https://github.com/mattn/zencoding-vim
+https://github.com/groenewege/vim-less.git
+https://github.com/mattn/zencoding-vim.git
 https://github.com/elzr/vim-json.git
 https://github.com/digitaltoad/vim-jade.git
 https://github.com/brianleroux/vim-jsbeautify.git
@@ -12,4 +12,4 @@ https://github.com/kien/ctrlp.vim.git
 https://github.com/scrooloose/syntastic.git
 https://github.com/tpope/vim-fugitive.git
 https://github.com/airblade/vim-gitgutter.git
-https://github.com/marijnh/tern_for_vim
+https://github.com/marijnh/tern_for_vim.git
