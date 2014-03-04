@@ -33,4 +33,4 @@ highlight ColorColumn ctermbg=235 guibg=#2c2d27
 hi Todo ctermfg=1
 let &colorcolumn="80,".join(range(120,999),",")
 let g:syntastic_javascript_syntax_checker="jshint"
-let delimitMate_expand_cr=1
+let delimitMate_expand_cr=2
