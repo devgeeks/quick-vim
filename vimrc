@@ -1,3 +1,4 @@
+execute pathogen#infect()
 set noswapfile
 set nobackup
 set nowrap
@@ -18,12 +19,11 @@ set autoindent
 set visualbell t_vb=
 inoremap jk <esc>
 inoremap kj <esc>
-execute pathogen#infect()
 syntax on
 color jellybeans
 filetype plugin indent on
-autocmd vimenter * if !argc() | NERDTree | endif
-map <C-n> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeTabsToggle<CR>
+let g:nerdtree_tabs_open_on_console_startup=1
 map <C-\> :Gbrowse<CR>
 inoremap <C-@> <c-x><c-o>
 let g:gitgutter_realtime = 1
