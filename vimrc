@@ -24,8 +24,11 @@ color jellybeans
 filetype plugin indent on
 map <C-n> :NERDTreeTabsToggle<CR>
 let g:nerdtree_tabs_open_on_console_startup=1
+let NERDTreeShowHidden=1
 map <C-\> :Gbrowse<CR>
 inoremap <C-@> <c-x><c-o>
+nnoremap <tab> <c-w>
+nnoremap <tab><tab> <c-w><c-w>
 let g:gitgutter_realtime = 1
 let g:vim_markdown_folding_disabled=1
 let mapleader = ","
