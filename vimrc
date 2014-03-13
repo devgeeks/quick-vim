@@ -1,4 +1,5 @@
 execute pathogen#infect()
+let mapleader = ","
 set noswapfile
 set nobackup
 set nowrap
@@ -31,9 +32,12 @@ nnoremap <tab> <c-w>
 nnoremap <tab><tab> <c-w><c-w>
 let g:gitgutter_realtime = 1
 let g:vim_markdown_folding_disabled=1
-let mapleader = ","
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 hi Todo ctermfg=1
 let &colorcolumn="80,".join(range(120,999),",")
 let g:syntastic_javascript_syntax_checker="jshint"
 let delimitMate_expand_cr=2
+map <Leader>w :set wrap!<CR>
+let g:used_javascript_libs = 'underscore,backbonei,jquery'
+" Open markdown files with Chrome.
+autocmd BufEnter *.md exe 'noremap <F5> :!open -a "Google Chrome.app" %:p<CR>'
