@@ -16,3 +16,5 @@ https://github.com/tpope/vim-fugitive.git
 https://github.com/airblade/vim-gitgutter.git
 https://github.com/marijnh/tern_for_vim.git
 https://github.com/Raimondi/delimitMate.git
+https://github.com/ap/vim-css-color.git
+https://github.com/freitass/todo.txt-vim.git
