@@ -41,3 +41,4 @@ map <Leader>w :set wrap!<CR>
 let g:used_javascript_libs = 'underscore,backbonei,jquery'
 " Open markdown files with Chrome.
 autocmd BufEnter *.md exe 'noremap <F5> :!open -a "Google Chrome.app" %:p<CR>'
+set pastetoggle=<Leader>p
