@@ -23,7 +23,7 @@ inoremap kj <esc>
 syntax on
 color jellybeans
 filetype plugin indent on
-map <C-n> :NERDTreeTabsToggle<CR>
+map <Leader>n :NERDTreeTabsToggle<CR>
 let g:nerdtree_tabs_open_on_console_startup=1
 let NERDTreeShowHidden=1
 map <C-\> :Gbrowse<CR>
@@ -35,12 +35,15 @@ let g:vim_markdown_folding_disabled=1
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 hi Todo ctermfg=1
 let &colorcolumn="80,".join(range(120,999),",")
-let g:syntastic_javascript_syntax_checker="jshint"
+let g:syntastic_javascript_checkers = ['jsxhint']
+let g:JSHintUpdateReadAndWriteOnly=1
 let delimitMate_expand_cr=2
 map <Leader>w :set wrap!<CR>
 let g:used_javascript_libs = 'underscore,backbonei,jquery'
 " Open markdown files with Chrome.
 autocmd BufEnter *.md exe 'noremap <F5> :!open -a "Google Chrome.app" %:p<CR>'
-set pastetoggle=<Leader>p
-set mouse=a
-set ttymouse=xterm2
+nmap <leader>s :%s/\s\+$//<CR>:let @/=''<CR>
+set pastetoggle=<Leader>P
+map <leader>p :r !pbpaste<CR>
+" set mouse=a
+" set ttymouse=xterm2

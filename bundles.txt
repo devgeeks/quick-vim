@@ -1,3 +1,5 @@
+https://github.com/MarcWeber/vim-addon-mw-utils.git
+https://github.com/tomtom/tlib_vim.git
 https://github.com/scrooloose/nerdtree.git
 https://github.com/scrooloose/nerdcommenter.git
 https://github.com/jistr/vim-nerdtree-tabs.git
@@ -18,3 +20,7 @@ https://github.com/marijnh/tern_for_vim.git
 https://github.com/Raimondi/delimitMate.git
 https://github.com/ap/vim-css-color.git
 https://github.com/freitass/todo.txt-vim.git
+https://github.com/mklabs/vim-backbone.git
+https://github.com/terryma/vim-multiple-cursors.git
+https://github.com/justinj/vim-react-snippets.git
+https://github.com/honza/vim-snippets.git
