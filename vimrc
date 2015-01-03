@@ -47,3 +47,5 @@ set pastetoggle=<Leader>P
 map <leader>p :r !pbpaste<CR>
 " set mouse=a
 " set ttymouse=xterm2
+let g:airline_powerline_fonts = 1           
+let g:airline#extensions#tabline#enabled = 1
