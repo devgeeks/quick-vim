@@ -22,6 +22,6 @@ https://github.com/ap/vim-css-color.git
 https://github.com/freitass/todo.txt-vim.git
 https://github.com/mklabs/vim-backbone.git
 https://github.com/terryma/vim-multiple-cursors.git
-https://github.com/justinj/vim-react-snippets.git
+https://github.com/devgeeks/vim-react-snippets.git
 https://github.com/honza/vim-snippets.git
 https://github.com/bling/vim-airline.git
