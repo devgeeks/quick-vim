@@ -24,4 +24,4 @@ https://github.com/mklabs/vim-backbone.git
 https://github.com/terryma/vim-multiple-cursors.git
 https://github.com/devgeeks/vim-react-snippets.git
 https://github.com/honza/vim-snippets.git
-https://github.com/bling/vim-airline.git
+https://github.com/vim-airline/vim-airline.git
