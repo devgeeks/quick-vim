@@ -21,7 +21,9 @@ set visualbell t_vb=
 inoremap jk <esc>
 inoremap kj <esc>
 syntax on
-color jellybeans
+" color jellybeans
+set bg=dark
+color hybrid
 filetype plugin indent on
 map <Leader>n :NERDTreeTabsToggle<CR>
 let g:nerdtree_tabs_open_on_console_startup=1
