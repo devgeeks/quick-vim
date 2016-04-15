@@ -7,7 +7,6 @@ https://github.com/tpope/vim-surround.git
 https://github.com/msanders/snipmate.vim.git
 https://github.com/jelera/vim-javascript-syntax.git
 https://github.com/plasticboy/vim-markdown.git
-https://github.com/groenewege/vim-less.git
 https://github.com/mattn/emmet-vim.git
 https://github.com/elzr/vim-json.git
 https://github.com/digitaltoad/vim-jade.git
