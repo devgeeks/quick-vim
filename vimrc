@@ -1,3 +1,4 @@
+set encoding=utf8
 execute pathogen#infect()
 let mapleader = ","
 set noswapfile
@@ -76,4 +77,13 @@ endfunction
 nnoremap <leader>m :call ToggleMouse()<CR>
 nmap <leader>. :tabn<CR>
 nmap <leader><leader> :tabp<CR>
+let g:EditorConfig_core_mode = 'external_command'
+nmap <leader>h :nohl<CR>                         
+if has("syntax")
+  syntax on
+  filetype on
+  au BufNewFile,BufRead *.js6 set filetype=javascript
+endif
+let g:rainbow_active = 1
+let g:rainbow_conf={ 'ctermfgs' : [66,24,2,28,5,26,48,26,44,32,21,40,2,5,8,3] }
 
