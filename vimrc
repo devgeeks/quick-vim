@@ -86,4 +86,4 @@ if has("syntax")
 endif
 let g:rainbow_active = 1
 let g:rainbow_conf={ 'ctermfgs' : [66,24,2,28,5,26,48,26,44,32,21,40,2,5,8,3] }
-
+let g:WebDevIconsNerdTreeAfterGlyphPadding = ' '
