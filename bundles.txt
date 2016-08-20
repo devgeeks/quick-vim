@@ -4,8 +4,8 @@ https://github.com/scrooloose/nerdtree.git
 https://github.com/scrooloose/nerdcommenter.git
 https://github.com/jistr/vim-nerdtree-tabs.git
 https://github.com/tpope/vim-surround.git
-https://github.com/jelera/vim-javascript-syntax.git
 https://github.com/plasticboy/vim-markdown.git
+https://github.com/pangloss/vim-javascript
 https://github.com/mattn/emmet-vim.git
 https://github.com/elzr/vim-json.git
 https://github.com/digitaltoad/vim-jade.git
@@ -26,3 +26,4 @@ https://github.com/vim-airline/vim-airline.git
 https://github.com/vim-airline/vim-airline-themes
 https://github.com/myusuf3/numbers.vim.git
 https://github.com/luochen1990/rainbow
+https://github.com/mxw/vim-jsx
