@@ -23,13 +23,13 @@ backup () {
         echo 'skipping backup'
     else
         mkdir -p ./backup
-        if [ -e ~/.vimrc ]
+        if [ -e ~/.nvimrc ]
         then
-            mv ~/.vimrc ./backup/.vimrc
+            mv ~/.nvimrc ./backup/.nvimrc
         fi
-        if [ -e ~/.vim ]
+        if [ -e ~/.nvim ]
         then
-            mv ~/.vim ./backup/.vim
+            mv ~/.nvim ./backup/.nvim
         fi
     fi
 }
@@ -39,31 +39,33 @@ install () {
     backup
 
     # copy in vimrc and pathogen
-    cp ./vimrc ~/.vimrc
-    cp -r ./vim ~/.vim
+    cp ./vimrc ~/.nvimrc
+    cp -r ./vim ~/.nvim
 
     # add in bundles from bundle.txt
-    mkdir -p ~/.vim/bundle
+    mkdir -p ~/.nvim/bundle
     bundles=$(cat ./bundles.txt)
-    cd ~/.vim/bundle
+    cd ~/.nvim/bundle
     for repo in $bundles; do
         git clone $repo
     done
+    cd ..
+    ln -sf ~/.nvimrc init.vim
 }
 
 # if backup exists clobbers home vim and copies in backup
 uninstall () {
     if [ -e ./backup ]
     then
-        rm ~/.vimrc
-        rm -rf ~/.vim
-        if [ -e ./backup/.vimrc ]
+        rm ~/.nvimrc
+        rm -rf ~/.nvim
+        if [ -e ./backup/.nvimrc ]
         then
-            mv ./backup/.vimrc ~/.vimrc
+            mv ./backup/.nvimrc ~/.nvimrc
         fi
-        if [ -e ./backup/.vim ]
+        if [ -e ./backup/.nvim ]
         then
-            mv ./backup/.vim ~/.vim
+            mv ./backup/.nvim ~/.nvim
         fi
         rm -rf ./backup
     fi
